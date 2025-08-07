@@ -1,0 +1,21 @@
+﻿@{
+    var user = ViewBag.User as LoginRegistrationMVC.Models.User;
+}
+
+<div class="navbar-brand">LoginRegistrationMVC</div>
+<div class="navbar-content">
+    @if (user != null)
+    {
+        <div class="user-info">
+            <span>Welcome, @user.Name</span>
+            <img src="@(user.ImagePath ?? "/Uploads/default.png")"
+                 alt="User Avatar"
+                 class="user-avatar"
+                 onclick="showLogoutPopup('@user.Name'); return false;"
+                 title="Click to logout" />
+        </div>
+    }
+    <div class="nav-links">
+        <a href="@Url.Action("Login", "Account")">Login</a>
+    </div>
+</div>

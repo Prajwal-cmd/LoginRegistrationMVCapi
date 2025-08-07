@@ -1,0 +1,42 @@
+﻿<div class="sidebar-header">
+    <h3>Menu</h3>
+</div>
+<ul class="sidebar-menu">
+    <li>
+        <a href="@Url.Action("Dashboard", "Account")" class="@(ViewContext.RouteData.Values["action"].ToString() == "Dashboard" ? "active" : "")">
+            <i class="icon-dashboard"></i>
+            Dashboard
+        </a>
+    </li>
+    <li>
+        <a href="@Url.Action("Index", "Home")" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Home" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+            <i class="icon-home"></i>
+            Home
+        </a>
+    </li>
+    <li>
+        <a href="@Url.Action("About", "Home")" class="@(ViewContext.RouteData.Values["action"].ToString() == "About" ? "active" : "")">
+            <i class="icon-info"></i>
+            About
+        </a>
+    </li>
+    <li>
+        <a href="@Url.Action("Contact", "Home")" class="@(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")">
+            <i class="icon-contact"></i>
+            Contact
+        </a>
+    </li>
+    <li>
+        <a href="@Url.Action("Index", "Students")" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Students" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+            <i class="icon-users"></i>
+            Students
+        </a>
+    </li>
+
+    <li>
+        <a href="@Url.Action("Chat", "Account")" class="@(ViewContext.RouteData.Values["action"].ToString() == "Chat" ? "active" : "")">
+            <i class="icon-chat"></i>
+            Chat
+        </a>
+    </li>
+</ul>

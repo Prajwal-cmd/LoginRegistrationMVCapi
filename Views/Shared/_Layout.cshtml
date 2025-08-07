@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - LoginRegistrationMVC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @Styles.Render("~/css")
+</head>
+<body>
+    @if (!IsLoginOrRegisterPage() && User.Identity.IsAuthenticated)
+    {
+        <div class="app-container auth-layout">
+            <div class="sidebar">
+                @Html.Partial("_Sidebar")
+            </div>
+            <div class="main-content">
+                <div class="navbar">
+                    @Html.Partial("_Navbar")
+                </div>
+                <div class="page-content">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="app-container guest-layout">
+            @RenderBody()
+        </div>
+    }
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+
+    <input type="hidden" id="hdnApiBaseUrl" value="@System.Configuration.ConfigurationManager.AppSettings["ApiBaseUrl"]" />
+    <input type="hidden" id="hdnImageBaseUrl" value="@System.Configuration.ConfigurationManager.AppSettings["ImageBaseUrl"]" />
+    <script src="~/js/site.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
+
+</body>
+
+@functions {
+    private bool IsLoginOrRegisterPage()
+    {
+        var route = HttpContext.Current.Request.RequestContext.RouteData;
+        var controller = route.Values["controller"]?.ToString();
+        var action = route.Values["action"]?.ToString();
+        return controller == "Account" && (action == "Login" || action == "Register");
+    }
+}
+

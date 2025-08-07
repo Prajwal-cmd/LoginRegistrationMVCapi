@@ -1,0 +1,187 @@
+﻿@model LoginRegistrationMVC.Models.User
+@{
+    ViewBag.Title = "Chat";
+}
+
+<div class="chat-container">
+    <div class="chat-list">
+        <h3 class="chat-list-header">Available Chats</h3>
+        <select id="chatSelector" class="form-control chat-select">
+            <option value="0">Select a Chat</option>
+        </select>
+    </div>
+    <div class="message-area" id="messageArea">
+        <div id="messages" class="messages-container">
+            <!-- Messages will be appended here by JavaScript -->
+        </div>
+    </div>
+    <div class="input-area">
+        <button id="createChatButton" class="btn btn-success create-chat-btn">Create Chat</button>
+        <input type="text" id="messageInput" class="form-control message-input" placeholder="Type a message..." />
+        <button id="sendButton" class="btn btn-primary send-btn">
+            <i class="fas fa-paper-plane"></i>
+        </button>
+    </div>
+    <!-- Hidden field to store the current username -->
+    <input type="hidden" id="currentUserName" value="@(User.Identity.Name ?? "")" />
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (window.location.href.indexOf('Chat') > -1) {
+                // Set myUserName from the hidden field
+                myUserName = $('#currentUserName').val();
+                initializeChat();
+            }
+        });
+    </script>
+    <style type="text/css">
+
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f0f2f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .chat-list {
+            width: 350px;
+            background-color: #fff;
+            border-right: 1px solid #e0e0e0;
+            padding: 15px;
+            overflow-y: auto;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-list-header {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #1a73e8;
+            font-weight: 500;
+        }
+
+        .chat-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .chat-select:hover {
+                background-color: #e0e0e0;
+            }
+
+        .message-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #e9ecef;
+        }
+
+        .messages-container {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .message {
+            max-width: 60%;
+            margin: 15px 0;
+            padding: 12px 15px;
+            border-radius: 15px;
+            display: inline-block;
+            position: relative;
+            word-wrap: break-word;
+        }
+
+        .sent {
+            background-color: #0084ff;
+            color: #fff;
+            margin-left: 40%;
+            align-self: flex-end;
+        }
+
+        .received {
+            background-color: #e9ecef;
+            color: #000;
+            margin-right: 40%;
+            align-self: flex-start;
+        }
+
+        .message-timestamp {
+            font-size: 0.7em;
+            color: #888;
+            margin-top: 5px;
+            text-align: right;
+        }
+
+        .input-area {
+            padding: 15px;
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .create-chat-btn {
+            padding: 8px 15px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+            .create-chat-btn:hover {
+                background-color: #23c552;
+            }
+
+        .message-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+            .message-input:focus {
+                border-color: #1a73e8;
+            }
+
+        .send-btn {
+            padding: 10px 15px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #1a73e8;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .send-btn:hover {
+                background-color: #1557a0;
+            }
+
+            .send-btn i {
+                color: #fff;
+            }
+    </style>
+    <!-- Font Awesome for send icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+

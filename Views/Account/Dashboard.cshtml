@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    var user = Model;
+}
+
+<div class="page-header">
+    <h1>Welcome back, @user.Name!</h1>
+    <p>Here's an overview of your account.</p>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h3>Account Information</h3>
+    </div>
+    <div class="card-body">
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <img src="@(user.ImagePath ?? "/Uploads/default.png")"
+                 alt="Profile Picture"
+                 style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e9ecef;" />
+            <div>
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">@user.Name</h4>
+                <p style="margin: 0; color: #666;"><strong>Email:</strong> @user.Email</p>
+                <p style="margin: 0; color: #666;"><strong>Gender:</strong> @user.Gender</p>
+                <p style="margin: 0; color: #666;"><strong>Date of Birth:</strong> @user.DateOfBirth.ToString("MMMM dd, yyyy")</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+   
+    <script>
+        var loginUrl = "@Url.Action("Login", "Account")";
+        var dashboardUrl = "@Url.Action("Dashboard", "Account")";
+        var registerUrl = "@Url.Action("Register", "Account")";
+    </script>
+  
+}

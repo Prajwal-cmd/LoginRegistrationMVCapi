@@ -1,0 +1,31 @@
+﻿@model List<LoginRegistrationMVC.Models.User>
+@{
+    ViewBag.Title = "Search Users";
+}
+
+<h2>Search Users</h2>
+<input type="text" id="searchInput" placeholder="Search by email or name..." />
+<select id="filterSelect">
+    <option value="">All Roles</option>
+    <option value="User">User</option>
+    <option value="Admin">Admin</option>
+</select>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody id="userTable">
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Email</td>
+                <td>@user.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
