@@ -39,4 +39,12 @@
             Chat
         </a>
     </li>
+
+
+    <li>
+        <a href="@Url.Action("Index", "Practice")" class="@(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+            
+            Index
+        </a>
+    </li>
 </ul>

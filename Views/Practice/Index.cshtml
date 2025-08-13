@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "Lazy Loading Practice";
+}
+
+<style>
+    /* Add a border to all cells and headers */
+    #employeeContainer table,
+    #employeeContainer th,
+    #employeeContainer td {
+        border: 1px solid #ddd;
+    }
+
+    /* Collapse the borders for a cleaner look */
+    #employeeContainer table {
+        border-collapse: collapse;
+        width: 100%; /* Make the table take up the full width of its container */
+    }
+
+    /* Add some padding to the cells for spacing */
+    #employeeContainer th,
+    #employeeContainer td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    /* Make the table header background a different color */
+    #employeeContainer thead {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Departments</h2>
+        <ul id="departmentList">
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <div id="departmentDetails">
+            <h2>Department Details</h2>
+            <p>Click a department on the left to see its employees.</p>
+        </div>
+        <div id="employeeContainer" style="height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                        <th>Hire Date</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                </tbody>
+            </table>
+            <div id="loadingIndicator" style="display: none; text-align: center;">Loading more employees...</div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/js/practice.js"></script>
+    <script>
+        $(document).ready(function () {
+            initializePractice();
+        });
+    </script>
+}

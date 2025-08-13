@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Department Details";
+}
+
+<h2>Department Details (Lazy Loading Practice)</h2>
+<div id="departmentDetails">
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/js/practice.js"></script>
+    <script>
+        // Get the department ID from the ViewBag
+        const departmentId = @ViewBag.DepartmentId;
+
+        // Fetch and display details on page load
+        $(document).ready(function () {
+            fetchDepartmentDetails(departmentId);
+        });
+    </script>
+}
