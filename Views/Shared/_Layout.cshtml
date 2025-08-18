@@ -5,6 +5,9 @@
     <title>@ViewBag.Title - LoginRegistrationMVC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     @Styles.Render("~/css")
+
+    <!-- Chatbot CSS -->
+    <link rel="stylesheet" href="~/css/chatbot.css" />
 </head>
 <body>
     @if (!IsLoginOrRegisterPage() && User.Identity.IsAuthenticated)
@@ -22,6 +25,9 @@
                 </div>
             </div>
         </div>
+
+        @* Inject chatbot partial here so it's on every authenticated page *@
+        @Html.Partial("_ChatWidget")
     }
     else
     {
@@ -38,9 +44,10 @@
     <input type="hidden" id="hdnImageBaseUrl" value="@System.Configuration.ConfigurationManager.AppSettings["ImageBaseUrl"]" />
     <script src="~/js/site.js"></script>
 
+    <!-- Chatbot widget script (after site.js) -->
+    <script src="~/js/chatbot_widget.js"></script>
+
     @RenderSection("Scripts", required: false)
-
-
 </body>
 
 @functions {
@@ -52,4 +59,3 @@
         return controller == "Account" && (action == "Login" || action == "Register");
     }
 }
-

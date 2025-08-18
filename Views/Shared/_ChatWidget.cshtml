@@ -1,0 +1,23 @@
+﻿@* Views/Shared/_ChatWidget.cshtml *@
+
+<div id="chatWidget" class="chat-widget closed" aria-hidden="true">
+    <button id="chatToggleBtn" class="chat-toggle" aria-label="Open help chat">
+        <span class="chat-icon">💬</span>
+    </button>
+
+    <div id="chatWindow" class="chat-window" role="dialog" aria-label="Help chat" aria-hidden="true">
+        <div class="chat-header">
+            <div class="chat-title">Help Assistant</div>
+            <div class="chat-controls">
+                <button id="chatHomeBtn" class="chat-btn" title="Home">Home</button>
+                <button id="chatCloseBtn" class="chat-btn" title="Close">✕</button>
+            </div>
+        </div>
+
+        <div id="chatMessages" class="chat-messages" aria-live="polite" aria-atomic="false"></div>
+
+        <div id="chatFooter" class="chat-footer">
+            <div id="chatQuickReplies" class="chat-quick-replies" role="list"></div>
+        </div>
+    </div>
+</div>

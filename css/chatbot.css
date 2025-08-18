@@ -1,0 +1,177 @@
+﻿/* Content/chatbot.css - Floating chatbot widget styles */
+
+.chat-widget {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 9999;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Toggle button (visible when closed or open, sits above window) */
+.chat-toggle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #1a73e8;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(26,115,232,0.25);
+    cursor: pointer;
+}
+
+/* Chat window (hidden when closed) */
+.chat-window {
+    width: 320px;
+    max-height: 480px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 8px;
+    margin-left: 0;
+}
+
+/* hide by default (we toggle class) */
+.chat-widget.closed .chat-window {
+    display: none;
+}
+
+/* header */
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    background: #f5f7fb;
+    border-bottom: 1px solid #e6e9ef;
+}
+
+.chat-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111827;
+}
+
+.chat-controls {
+    display: flex;
+    gap: 6px;
+}
+
+.chat-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: #374151;
+}
+
+/* messages area */
+.chat-messages {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: auto;
+    background: #ffffff;
+    min-height: 160px;
+}
+
+/* message wrapper */
+.msg {
+    display: flex;
+    align-items: flex-end;
+    max-width: 88%;
+}
+
+    /* user messages: align right */
+    .msg.user {
+        align-self: flex-end;
+        justify-content: flex-end;
+    }
+
+    /* bot messages: align left */
+    .msg.bot {
+        align-self: flex-start;
+        justify-content: flex-start;
+    }
+
+/* bubble styling */
+.bubble {
+    padding: 8px 12px;
+    border-radius: 12px;
+    line-height: 1.2;
+    font-size: 13px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+/* user bubble (left) */
+.msg.user .bubble {
+    background: #e6f0ff;
+    color: #0b3a8c;
+    border-radius: 12px 12px 12px 4px;
+}
+
+/* bot bubble (right) */
+.msg.bot .bubble {
+    background: #f1f5f9;
+    color: #111827;
+    border-radius: 12px 12px 4px 12px;
+}
+
+/* typing indicator style */
+.msg.typing .bubble {
+    font-style: italic;
+    color: #6b7280;
+}
+
+/* quick replies container (rendered inside a bot message) */
+.chat-quick-replies {
+    padding: 10px 8px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* quick reply button */
+.chat-quick-reply {
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid #e6e9ef;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+    /* quick reply hover */
+    .chat-quick-reply:hover {
+        background: #eef2ff;
+        border-color: #c7d2fe;
+    }
+
+/* footer (keeps quick replies pinned) */
+.chat-footer {
+    padding: 8px;
+    border-top: 1px solid #e6e9ef;
+    background: #fff;
+}
+
+/* small screens: make it larger */
+@media (max-width: 480px) {
+    .chat-window {
+        width: calc(100% - 32px);
+        right: 16px;
+        bottom: 16px;
+        max-height: 80vh;
+    }
+
+    .chat-toggle {
+        width: 48px;
+        height: 48px;
+    }
+}
