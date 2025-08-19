@@ -11,28 +11,68 @@
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\shared\\_chatwidget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_chatwidget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\practice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:js\\practice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\practicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\practicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\practice\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\practice\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -63,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\practice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:js\\practice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\practice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\practice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -75,24 +111,8 @@
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\practicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\practicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\practice\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\practice\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,20 +143,8 @@
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\account\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\account\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -170,25 +174,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\site.js",
               "RelativeDocumentMoniker": "js\\site.js",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\site.js",
               "RelativeToolTip": "js\\site.js",
-              "ViewState": "AgIAAGsCAAAAAAAAAAAkwHUCAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAGwCAAAAAAAAAADwv4wCAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-17T06:23:55.103Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
@@ -205,16 +208,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ChatWidget.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ChatWidget.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ChatWidget.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T09:49:49.719Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "chatbot_widget.js",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\chatbot_widget.js",
               "RelativeDocumentMoniker": "js\\chatbot_widget.js",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\chatbot_widget.js",
               "RelativeToolTip": "js\\chatbot_widget.js",
-              "ViewState": "AgIAALkAAAAAAAAAAAAgwNEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-08-14T09:53:11.988Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\Site.css",
+              "RelativeDocumentMoniker": "css\\Site.css",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\Site.css",
+              "RelativeToolTip": "css\\Site.css",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAQwJoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-16T04:46:25.271Z"
             },
             {
               "$type": "Document",
@@ -224,34 +251,21 @@
               "RelativeDocumentMoniker": "css\\chatbot.css",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css",
               "RelativeToolTip": "css\\chatbot.css",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-14T09:51:24.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ChatWidget.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ChatWidget.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ChatWidget.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-14T09:49:49.719Z"
+              "WhenOpened": "2025-08-14T09:51:24.585Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T08:59:28.038Z"
+              "WhenOpened": "2025-08-19T05:53:51.465Z"
             },
             {
               "$type": "Document",
@@ -261,37 +275,145 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-17T16:23:47.113Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAQwIEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T10:08:16.842Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:59:28.038Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Products.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Products.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Products.cshtml",
+              "RelativeToolTip": "Views\\Account\\Products.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T11:49:52.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "practice.js",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\practice.js",
+              "RelativeDocumentMoniker": "js\\practice.js",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\practice.js",
+              "RelativeToolTip": "js\\practice.js",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-11T14:06:06.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PracticeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\PracticeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PracticeController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\PracticeController.cs",
+              "RelativeToolTip": "Controllers\\PracticeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T14:07:00.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Practice\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Practice\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Practice\\Details.cshtml",
+              "RelativeToolTip": "Views\\Practice\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T14:10:35.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Search.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Search.cshtml",
+              "RelativeToolTip": "Views\\Account\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:38:30.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T10:02:52.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T10:02:16.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Dashboard.cshtml",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Dashboard.cshtml",
               "RelativeToolTip": "Views\\Account\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-17T07:11:20.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T22:07:46.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:08:16.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Global.asax.cs",
               "RelativeDocumentMoniker": "Global.asax.cs",
@@ -303,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\packages.config",
               "RelativeDocumentMoniker": "packages.config",
@@ -315,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -328,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Chat.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Chat.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Chat.cshtml",
@@ -340,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -352,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Data\\UserRepository.cs",
               "RelativeDocumentMoniker": "Data\\UserRepository.cs",
@@ -364,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
@@ -376,31 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "practice.js",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\practice.js",
-              "RelativeDocumentMoniker": "js\\practice.js",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\practice.js",
-              "RelativeToolTip": "js\\practice.js",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAuwJ8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-11T14:06:06.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PracticeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\PracticeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PracticeController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\PracticeController.cs",
-              "RelativeToolTip": "Controllers\\PracticeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T14:07:00.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Practice\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Practice\\Index.cshtml",
@@ -412,31 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Practice\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Practice\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Practice\\Details.cshtml",
-              "RelativeToolTip": "Views\\Practice\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-11T14:10:35.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Products.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Products.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Products.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Products.cshtml",
-              "RelativeToolTip": "Views\\Account\\Products.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-11T11:49:52.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
@@ -448,19 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T22:07:46.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "Services\\ApiService.cs",
@@ -472,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
@@ -484,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -496,31 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T10:02:52.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Site.css",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\Site.css",
-              "RelativeDocumentMoniker": "css\\Site.css",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\Site.css",
-              "RelativeToolTip": "css\\Site.css",
-              "ViewState": "AgIAAGwBAAAAAAAAAAAQwJoBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-16T04:46:25.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "_Navbar.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Navbar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Navbar.cshtml",
@@ -532,19 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T10:02:16.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
@@ -556,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
@@ -568,19 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Search.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Search.cshtml",
-              "RelativeToolTip": "Views\\Account\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T08:38:30.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -592,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
@@ -604,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
@@ -616,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
@@ -628,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "PasswordHelper.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Helpers\\PasswordHelper.cs",
               "RelativeDocumentMoniker": "Helpers\\PasswordHelper.cs",
@@ -640,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -652,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Web.config",
               "RelativeDocumentMoniker": "Views\\Web.config",

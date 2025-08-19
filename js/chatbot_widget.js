@@ -1,4 +1,5 @@
-﻿/* js/chatbot_widget.js
+﻿
+/* js/chatbot_widget.js
    Floating click-only Q&A widget.
    Behavior:
     - Two states: open / closed
@@ -17,7 +18,7 @@
     })();
 
     // DOM elements
-    var $widget, $toggle, $window, $closeBtn, $homeBtn, $messages, $quickReplies;
+    var $widget, $toggle, $window, $closeBtn, $homeBtn, $messages;
 
     function init() {
         $widget = $('#chatWidget');
@@ -26,7 +27,6 @@
         $closeBtn = $('#chatCloseBtn');
         $homeBtn = $('#chatHomeBtn');
         $messages = $('#chatMessages');
-        $quickReplies = $('#chatQuickReplies');
 
         // initial state closed
         $widget.addClass('closed').attr('aria-hidden', 'true');
@@ -64,7 +64,6 @@
 
     function resetConversation() {
         $messages.empty();
-        $quickReplies.empty();
     }
 
     function fetchRootQuestions() {
@@ -108,7 +107,6 @@
             }
         });
     }
-
 
     function appendUserText(text) {
         var $wrap = $('<div class="msg user"></div>');
@@ -163,19 +161,6 @@
         $wrap.append($bubble);
         $messages.append($wrap);
         scrollToBottom();
-
-        renderFooterQuickReplies(children);
-    }
-
-    function renderFooterQuickReplies(children) {
-        $quickReplies.empty();
-        if (!children || !children.length) return;
-        children.forEach(function (c) {
-            var $btn = $('<button class="chat-quick-reply" type="button"></button>');
-            $btn.text(c.text);
-            $btn.attr('data-id', c.id);
-            $quickReplies.append($btn);
-        });
     }
 
     function showHomeOptions() {
@@ -196,7 +181,6 @@
 
         return text.replace(urlRegex, function (url) {
             var href = url;
-            // If the URL starts with "www." but not "http", prepend "http://" for the href
             if (href.startsWith('www.')) {
                 href = 'http://' + href;
             }
