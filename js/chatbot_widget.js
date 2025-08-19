@@ -6,7 +6,7 @@
     - When opened -> fresh conversation: top-level questions fetched
     - When closed -> history cleared
     - User clicks a quick reply -> user bubble appended (right),
-      bot typing appears then bot response appended (left).
+      then bot response appended (left).
 */
 
 (function ($) {
@@ -18,7 +18,17 @@
     })();
 
     // DOM elements
-    var $widget, $toggle, $window, $closeBtn, $homeBtn, $messages;
+    var $widget, $toggle, $window, $closeBtn, $homeBtn, $messages, $chatTitle;
+    
+
+    // Phrases you want to cycle
+    let phraseIndex = 0;
+    const headerPhrases = [
+        "Help Assistant",
+        "How may I help you?",
+        "Ask me about admissions",
+        "Quick support at your fingertips"
+    ];
 
     function init() {
         $widget = $('#chatWidget');
@@ -27,6 +37,10 @@
         $closeBtn = $('#chatCloseBtn');
         $homeBtn = $('#chatHomeBtn');
         $messages = $('#chatMessages');
+        $chatTitle = $('#chatTitle');
+
+        
+        
 
         // initial state closed
         $widget.addClass('closed').attr('aria-hidden', 'true');
@@ -187,6 +201,24 @@
             return '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + url + '</a>';
         });
     }
+
+
+
+
+
+
+    setInterval(() => {
+        // fade out
+        chatTitle.classList.add("fade-out");
+
+        // after fade out, change text and fade in
+        setTimeout(() => {
+            phraseIndex = (phraseIndex + 1) % headerPhrases.length;
+            chatTitle.textContent = headerPhrases[phraseIndex];
+            chatTitle.classList.remove("fade-out");
+        }, 800); // must match transition duration in CSS
+    }, 4000); // change phrase every 4 seconds
+
 
     $(function () { init(); });
 

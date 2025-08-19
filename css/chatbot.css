@@ -51,10 +51,15 @@
 }
 
 .chat-title {
-    font-weight: 600;
-    font-size: 14px;
-    color: #111827;
+    font-weight: bold;
+    font-size: 16px;
+    transition: opacity 0.8s ease-in-out;
+    opacity: 1;
 }
+
+    .chat-title.fade-out {
+        opacity: 0;
+    }
 
 .chat-controls {
     display: flex;
