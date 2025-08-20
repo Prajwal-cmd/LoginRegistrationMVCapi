@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|c:\\users\\hp\\desktop\\api-signalr\\loginregistrationmvc-main\\js\\chatbot_widget.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\chatbot_widget.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:js\\chatbot_widget.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|c:\\users\\hp\\desktop\\api-signalr\\loginregistrationmvc-main\\views\\shared\\_chatwidget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_chatwidget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\views\\shared\\_chatwidget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:views\\shared\\_chatwidget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|solutionrelative:css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B9A9D-1324-42FD-A9CF-8ED3C9210366}|LoginRegistrationMVC.csproj|C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -177,6 +177,10 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "site.js",
@@ -187,8 +191,7 @@
               "ViewState": "AgIAAHICAAAAAAAAAAAkwH8CAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-17T06:23:55.103Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -204,10 +207,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "chatbot_widget.js",
@@ -215,14 +214,39 @@
               "RelativeDocumentMoniker": "js\\chatbot_widget.js",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\js\\chatbot_widget.js",
               "RelativeToolTip": "js\\chatbot_widget.js",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAkwNsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-08-14T09:53:11.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "chatbot.css",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css",
+              "RelativeDocumentMoniker": "css\\chatbot.css",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css",
+              "RelativeToolTip": "css\\chatbot.css",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAcwK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-14T09:51:24.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ChatWidget.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ChatWidget.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ChatWidget.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T09:49:49.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -230,25 +254,11 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAowIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T10:08:16.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T10:08:16.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ChatWidget.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ChatWidget.cshtml",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_ChatWidget.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ChatWidget.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-14T09:49:49.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -256,21 +266,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T08:59:28.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "chatbot.css",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css",
-              "RelativeDocumentMoniker": "css\\chatbot.css",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\api-SignalR\\LoginRegistrationMVC-main\\css\\chatbot.css",
-              "RelativeToolTip": "css\\chatbot.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-14T09:51:24.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T08:59:28.038Z"
             },
             {
               "$type": "Document",
@@ -282,8 +278,7 @@
               "RelativeToolTip": "js\\practice.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-11T14:06:06.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T14:06:06.452Z"
             },
             {
               "$type": "Document",

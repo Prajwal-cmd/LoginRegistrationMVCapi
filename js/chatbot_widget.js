@@ -39,6 +39,18 @@
         $messages = $('#chatMessages');
         $chatTitle = $('#chatTitle');
 
+        setInterval(() => {
+            // fade out
+            chatTitle.classList.add("fade-out");
+
+            // after fade out, change text and fade in
+            setTimeout(() => {
+                phraseIndex = (phraseIndex + 1) % headerPhrases.length;
+                chatTitle.textContent = headerPhrases[phraseIndex];
+                chatTitle.classList.remove("fade-out");
+            }, 800); // must match transition duration in CSS
+        }, 4000); // change phrase every 4 seconds
+
         
         
 
@@ -207,17 +219,7 @@
 
 
 
-    setInterval(() => {
-        // fade out
-        chatTitle.classList.add("fade-out");
-
-        // after fade out, change text and fade in
-        setTimeout(() => {
-            phraseIndex = (phraseIndex + 1) % headerPhrases.length;
-            chatTitle.textContent = headerPhrases[phraseIndex];
-            chatTitle.classList.remove("fade-out");
-        }, 800); // must match transition duration in CSS
-    }, 4000); // change phrase every 4 seconds
+    
 
 
     $(function () { init(); });
